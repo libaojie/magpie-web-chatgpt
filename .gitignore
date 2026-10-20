@@ -1,0 +1,23 @@
+# 第三方参考仓库（只读资料，不入库）
+refs/
+
+# 开发过程产物
+dev-log.md
+experiments/
+run-cc.sh
+cc-run.log
+cc-run.log.prev
+cc-run.pid
+
+# 日志
+*.log
+
+# 敏感凭证（Cookie / 登录态，绝不入库）
+plugin-auth.json
+cookie-header.txt
+*.cookie
+cookies.json
+
+# 系统/编辑器
+.DS_Store
+*.swp
